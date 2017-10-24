@@ -50,19 +50,29 @@ body,
   margin-top: -35px;
   width: 0;
   height: 0;
-  border-style: solid;
+  /*border-style: solid;*/
 }
 
-#arrow-left {
+.fa-arrow-left:before{
+  color: white;
+  margin-top: -35px;
+}
+
+.fa-arrow-right:before{
+  color: white;
+  margin-top: -35px;
+}
+
+#arrow-right {
+  /*border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;*/
+  right: 0;
+  margin-right: 70px;
+}
+
+/*#arrow-left {
   border-width: 30px 40px 30px 0;
   border-color: transparent #fff transparent transparent;
   left: 0;
   margin-left: 30px;
-}
-
-#arrow-right {
-  border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #fff;
-  right: 0;
-  margin-right: 30px;
-}
+}*/
